@@ -19,6 +19,9 @@ export default buildConfig({
     importMap: {
       baseDir: path.resolve(dirname),
     },
+    components: {
+      actions: ['@/components/TeamSelector#TeamSelector'],
+    },
   },
   collections: [Users, Media],
   editor: lexicalEditor(),
